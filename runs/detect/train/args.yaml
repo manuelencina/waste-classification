@@ -1,17 +1,15 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /home/mencina/Projects/waste-classification/data.yaml
-epochs: 10
+data: C:\Users\god\Desktop\waste-classification\data.yaml
+epochs: 50
 patience: 50
 batch: 8
-imgsz:
-- 416
-- 416
+imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: null
+device: 0
 workers: 8
 project: null
 name: null
@@ -96,4 +94,4 @@ copy_paste: 0.0
 cfg: null
 v5loader: false
 tracker: botsort.yaml
-save_dir: /home/mencina/Projects/waste-classification/runs/detect/train
+save_dir: runs\detect\train

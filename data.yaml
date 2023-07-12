@@ -2,5 +2,5 @@ train: datasets/train/images
 val: datasets/valid/images
 test: datasets/test/images
 
-nc: 6
-names: ['BIODEGRADABLE', 'CARDBOARD', 'GLASS', 'METAL', 'PAPER', 'PLASTIC']
+nc: 1
+names: ['CARDBOARD']
