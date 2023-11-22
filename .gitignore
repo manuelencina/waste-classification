@@ -2,3 +2,4 @@ venv/
 datasets/
 validation/
 *.mp4
+__pycache__
